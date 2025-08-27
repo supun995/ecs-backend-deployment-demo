@@ -41,9 +41,6 @@
                     "protocol": "tcp"
                 }
             ],
-            "restartPolicy": {
-                "enabled": true
-            },
             "secrets": [],
             "systemControls": [],
             "ulimits": [],
