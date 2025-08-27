@@ -48,13 +48,10 @@
         }
     ],
     "cpu": "256",
-    // "executionRoleArn": "arn:aws:iam::106754953546:role/IND-ECS-DEV-STACK-IndECSTaskExecutionRole9DAEB19E-AM3nDn5osjJM",
     "family": "Ind-ECS-TaskDef",
     "memory": "512",
     "networkMode": "awsvpc",
     "placementConstraints": [],
-    // "registeredAt": "2025-08-27T06:59:13.196Z",
-    // "registeredBy": "arn:aws:sts::106754953546:assumed-role/cdk-hnb659fds-cfn-exec-role-106754953546-ap-southeast-1/AWSCloudFormation",
     "requiresAttributes": [
         {
             "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
@@ -93,8 +90,6 @@
         "operatingSystemFamily": "LINUX"
     },
     "status": "ACTIVE",
-    // "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:106754953546:task-definition/Ind-ECS-TaskDef:7",
-    // "taskRoleArn": "arn:aws:iam::106754953546:role/IND-ECS-DEV-STACK-IndECSTaskDefTaskRole23C4412E-evjXJZY4fBNq",
     "volumes": [],
     "tags": []
 }
