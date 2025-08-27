@@ -48,6 +48,7 @@
         }
     ],
     "cpu": "256",
+    "executionRoleArn": "<EXECUTION_ROLE_ARN>",
     "family": "Ind-ECS-TaskDef",
     "memory": "512",
     "networkMode": "awsvpc",
@@ -90,6 +91,7 @@
         "operatingSystemFamily": "LINUX"
     },
     "status": "ACTIVE",
+    "taskRoleArn": "<TASK_ROLE_ARN>",
     "volumes": [],
     "tags": []
 }
