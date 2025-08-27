@@ -6,7 +6,6 @@
     "containerDefinitions": [
         {
             "command": [],
-            "cpu": 256,
             "credentialSpecs": [],
             "dnsSearchDomains": [],
             "dnsServers": [],
@@ -30,7 +29,6 @@
                 },
                 "secretOptions": []
             },
-            "memory": 512,
             "mountPoints": [],
             "name": "httpd",
             "portMappings": [
@@ -47,10 +45,8 @@
             "volumesFrom": []
         }
     ],
-    "cpu": "256",
     "executionRoleArn": "<EXECUTION_ROLE_ARN>",
     "family": "Ind-ECS-TaskDef",
-    "memory": "256",
     "networkMode": "awsvpc",
     "placementConstraints": [],
     "requiresAttributes": [
