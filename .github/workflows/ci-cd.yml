@@ -82,8 +82,8 @@ jobs:
 
     - name: Add Roles to ecs TaskDef
       run: |
-        sed -i "s|<EXECUTION_ROLE_ARN>|${{ var.EXECUTION_ROLE_ARN }}|g" Ind-ECS-TaskDef.json
-        sed -i "s|<TASK_ROLE_ARN>|${{ var.EXECUTION_ROLE_ARN }}|g" Ind-ECS-TaskDef.json
+        sed -i "s|<EXECUTION_ROLE_ARN>|${{ env.EXECUTION_ROLE_ARN }}|g" Ind-ECS-TaskDef.json
+        sed -i "s|<TASK_ROLE_ARN>|${{ env.EXECUTION_ROLE_ARN }}|g" Ind-ECS-TaskDef.json
 
     # - name: Download artifact from build job
     #   uses: actions/download-artifact@v4
