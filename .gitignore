@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Testing
+coverage/
+report/
+.scannerwork/
